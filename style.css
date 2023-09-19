@@ -1,0 +1,133 @@
+body{
+    background-color: #CCD2C6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border-color: #989898;
+}
+
+.head{
+    display: grid;
+    align-items: center;
+    background-color: #FFFFF0;
+    grid-template-columns: 2fr 1fr;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+
+.container{
+    
+    
+    min-width: 500px;
+    background-color: #FFFFF0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 30px 100px;
+}
+
+
+
+.parhead{
+    margin-left: 7px;
+}
+
+
+.head ul{
+    text-align: right;
+    align-items: right;
+}
+
+.head ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    
+    
+}
+
+.head ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    
+}
+
+.head .name{
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.OO{
+    color: red;
+}
+
+
+
+
+
+.Isa-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: first;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+.Isa-image{
+
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+
+}
+
+
+
+.Isa-extra{
+    align-self:first baseline;
+    border-bottom: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+ .Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+
+}
+
+.part-1{
+    display: flex;
+}
+
+.img1{
+    justify-self: center;
+    align-self: center;
+    height: 250px;
+    width: 225px;
+    padding-right: 50px;
+}
+
+.NYFW{
+    align-self:center;
+    justify-self: center;
+}
+
+.part-1 a{}

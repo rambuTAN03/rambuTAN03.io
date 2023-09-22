@@ -1,17 +1,16 @@
 *{
-    margin: 5px;
+    margin: 0px;
     padding: 0px;
     font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .container{
     display: grid;
     grid-template-areas: 
-    "image" "text2"
-
-    ;
+    "image" "text2";
     height: auto;
     width: auto;
+    margin-bottom: 100px;
     
 }
 
@@ -38,4 +37,80 @@ img{
     padding: 20px;
     border: 20px;
     border-style: solid;
+    border-color: #ddc16f;
+}
+
+.UIC{
+    color: white;
+    background-color: pink;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.Movie{
+    color: rgb(155, 1, 1);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+}
+
+.V{
+    font-family:cursive;
+    color: brown;
+
+}
+
+.V .VV{
+    font-family: cursive;
+    color: green;
+    font-size: 35px;
+}
+
+.P{
+    color: burlywood;
+    font-family:sans-serif;
+}
+
+.S{
+    color:rgb(255, 0, 98);
+
+    font-family: initial;
+}
+
+.CON{
+    font-size: 25px;
+    color: blueviolet;
+
+}
+
+.BAT{
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.ACC{
+    font-size: 50px;
+    color: #ddc16f;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.CS{
+    background-color: black;
+    color: rgb(40, 221, 40);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.END{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+li{
+    display: inline;
 }

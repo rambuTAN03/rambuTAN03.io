@@ -1,0 +1,41 @@
+*{
+    margin: 5px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "image" "text2"
+
+    ;
+    height: auto;
+    width: auto;
+    
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.start{
+    font-size: 100px;
+}
+
+.container .grid1 {
+    grid-area: image;
+    align-items: center;
+    justify-self: left;
+}
+
+.container .grid2{
+    grid-area: text2;
+}
+
+.container .grid1 img{
+    padding: 20px;
+    border: 20px;
+    border-style: solid;
+}

@@ -58,18 +58,70 @@ img .icon{
 
     font-size: 65px;
     margin: 45px 0;
+    margin-bottom: 20px;
 }
 
 .numbers h2{
     padding: 0;
     margin: 45px;
+    margin-bottom: 20px;
 }
 
 .numbers p{
     margin: 60px;
+    margin-left: 20px;
     font-size: 25px;
 }
 
 .extra{
     background-color: #63a0cc;
+    margin-top: 70px;
+    height: 250px;
+    width: 500px;
 }
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.inside img{
+    width: 500px;
+}
+
+ .inside .extra img {
+    height: 30px;
+    width: 30px;
+}
+
+.extra{
+    display: grid;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.extra h2{
+    display: inline-block;
+    color: #ffffff;
+}
+
+.extra .line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+}
+
+.extra .line img{
+    margin: 30px;
+    border-radius: 100px;
+
+
+}
+
+.extra .line h2{
+    margin-right: 250px;
+}
+
